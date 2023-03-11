@@ -1,0 +1,30 @@
+#banner {
+    background-color: burlywood;
+    height: 10%;
+    text-align: center;
+    color: white;
+    margin: -20px;
+    -webkit-text-stroke: 1px black;
+    font-family: "Arial Black";
+}
+
+#left {
+    width: 25%;
+    height: 80%;
+}
+
+
+
+#middle {
+    width: 50%;
+    height: 80%;
+}
+
+#right {
+    width: 25%;
+    height: 80%;
+}
+
+#footer {
+    height: 10%;
+}
