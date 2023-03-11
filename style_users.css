@@ -35,8 +35,36 @@ a{
 }
 
 table.tabela1 {
-    border: 1px solid white;
     float: bottom;
+    width: auto;
+}
+
+td {
+    text-align: right;
+}
+
+h3 {
+    text-align: center;
+}
+
+.button_main {
+    align-items: center;
+    appearance: none;
+    background-color: white;
+    border-radius: 24px;
+    border-style: none;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    letter-spacing: 0.25px;
+    padding: 2px 24px;
+    text-align: center;
+    touch-action: manipulation;
     width: auto;
 }
 
