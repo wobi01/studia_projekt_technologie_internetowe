@@ -5,29 +5,65 @@
     <title>Panel administracyjny</title>
    <link rel="stylesheet" href="style_users.css">
 </head>
+
 <body>
-<div id="banner">
-  <h1>Zarządzanie użytkownikami</h1>
-</div>
+    <div id="banner">
+        <div id="logo">KRAINA KSIĄŻEK</div>
 
-<div id="left"></div>
+        <div id="links">
+            <table class="tabela1" cellspacing="25px">
+                <tr>
+                    <td><a href="https://wp.pl">STRONA GŁÓWNA</a></td>
+                    <td><a href="https://wp.pl">LISTA UŻYTKOWNIKÓW</a></td>
+                </tr>
+            </table>
 
-<div id="middle">
-  <h3>Dodaj nowego czytelnika</h3>
-  <form id="form1" method="post" action="new_user.js">
-    Imię: <input type="text"><br>
-    Nazwisko: <input type="text"><br>
-    Rok urodzenia: <input type="date"><br>
-    <input type="button" name="button" value="DODAJ">
-  </form>
+        </div>
+    </div>
+
+    <div id="left">
+    </div>
+
+    <div id="middle">
+        <h3>Dodaj nowego czytelnika</h3>
+        <form id="form1" method="post" action="new_user.js">
+        <table style="width: auto" align="center">
+            <tr>
+                <td>Imię:</td>
+                <td> <input type="text" style="width: 100%"> </td>
+            </tr>
+            <tr>
+                <td>Nazwisko:</td>
+                <td> <input type="text" style="width: 100%"> </td>
+            </tr>
+            <tr>
+                <td>Adres e-mail:</td>
+                <td> <input type="text" style="width: 100%"> </td>
+            </tr>
+            <tr>
+                <td>Data urodzenia:</td>
+                <td> <input type="date" style="width: 102%"> </td>
+            </tr>
+            <tr><td colspan="2">  <input type="submit" name="button" value="Dodaj" ><img src="images/style/add-user.png"> </td>
+                <span class="button_icon">
+                    <ion-icon name="cloud-download-outline"></ion-icon>
+                </span>
+            </tr>
+
+        </table>
+        </form>
+
 </div>
 
 <div id="right">
-
 </div>
 
 <div id="footer"></div>
 
 
+
 </body>
 </html>
+
+
+
