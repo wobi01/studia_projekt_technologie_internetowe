@@ -11,5 +11,10 @@
       Hasło: <input type="password" placeholder="hasło" id="pass"> <p></p>
       <input type="submit" value="Zaloguj się"> <p></p>
   </form>
+  <?php
+    $conn = new mysqli("localhost", "root", "", "biblioteka");
+    $sql = "SELECT * FROM mytable";
+    $result = $conn->query($sql);
+    ?>
 </body>
 </html>
