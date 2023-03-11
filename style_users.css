@@ -2,28 +2,6 @@
 
 }
 
-#banner {
-    height: 350px;
-    margin: -8px;
-    background-image: url("images/style/biblioteka.jpg");
-}
-
-#logo {
-    text-align: center;;
-    padding-top: 4%;
-    font-size: 70px;
-    color: white;
-    -webkit-text-stroke: 1px black;
-    font-family: "Century Gothic";
-    font-weight: bold;
-}
-
-#links{
-    float: bottom;
-    padding-top: 60px;
-    padding-left: 33%;
-}
-
 a{
     color: white;
     font-weight: bold;
@@ -31,9 +9,35 @@ a{
     font-family: "Century Gothic";
 }
 
+#menu {
+    height: 30%;
+    width: auto;
+    margin: -8px;
+    background-image: url("images/style/biblioteka.jpg");
+    padding-bottom: 2%;
+
+}
+
+#name {
+    text-align: center;;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    font-size: 70px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
+
+#links {
+    m
+
+}
+
 table.tabela1 {
     border: 1px solid white;
-
+    float: bottom;
+    width: auto;
 }
 
 #left {
@@ -45,18 +49,6 @@ table.tabela1 {
     font-family: "Century Gothic";
 }
 
-
-
-#middle {
-    width: 50%;
-    height: 80%;
-    float: top;
-    text-align: center;
-    margin-top: 3   %;
-    margin-left: auto;
-    margin-right: auto;
-
-}
 
 #right {
     width: 25%;
