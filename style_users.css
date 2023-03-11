@@ -40,11 +40,12 @@ table.tabela1 {
     width: auto;
 }
 
+
 #left {
     width: 25%;
     height: 80%;
     float: left;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 5%;
     font-family: "Century Gothic";
 }
@@ -54,6 +55,9 @@ table.tabela1 {
     width: 25%;
     height: 80%;
     float: right;
+    margin-right: 10%;
+    margin-top: 5%;
+    font-family: "Century Gothic";
 }
 
 #footer {
