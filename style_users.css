@@ -21,7 +21,7 @@
 #links{
     float: bottom;
     padding-top: 60px;
-    padding-left: 37%;
+    padding-left: 33%;
 }
 
 a{
@@ -40,6 +40,9 @@ table.tabela1 {
     width: 25%;
     height: 80%;
     float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-family: "Century Gothic";
 }
 
 
